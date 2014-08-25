@@ -1,0 +1,7 @@
+{
+  "name": "demorole",
+  "run_list": [
+    "recipe[demobook::data_bag]",
+    "recipe[demobook::search]"
+  ]
+}
